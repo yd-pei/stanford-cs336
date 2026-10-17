@@ -48,3 +48,18 @@ gunzip owt_valid.txt.gz
 cd ..
 ```
 
+## Usage
+
+### BPE
+
+MacOS:
+
+```sh
+uv run --env-file .env.cppyy python train_tinystories.py 
+```
+
+Linux:
+
+```sh
+uv run python train_tinystories.py
+```
